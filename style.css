@@ -751,6 +751,21 @@ form .btn {
   .inputbox input {
     width: 100%;
   }
+   .projecthead p {
+    display: none;
+  }
+  .projecthead h4 {
+    top: 0;
+    font-size: 0.7rem;
+  }
+
+  .projecthead a {
+    text-decoration: none;
+  }
+  .projecthead i {
+    bottom: 0;
+    font-size: 1.5rem;
+  }
 }
 @media (max-width: 365px) {
   .homeimg img {
@@ -758,6 +773,21 @@ form .btn {
   }
   .aboutimg img {
     width: 90vw;
+  }
+   .projecthead p {
+    display: none;
+  }
+  .projecthead h4 {
+    top: 0;
+    font-size: 0.7rem;
+  }
+
+  .projecthead a {
+    text-decoration: none;
+  }
+  .projecthead i {
+    bottom: 0;
+    font-size: 1.5rem;
   }
   .footer {
     flex-direction: column-reverse;
