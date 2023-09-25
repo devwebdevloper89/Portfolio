@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devi's Portfolio</title>
+    <!-- GOGGLE FONT LINK FOR HTML---------------------------------------------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CUSTOMIZE CURSOR LIBRARY CDN LINK FOR CSS ---------------------------------------------------------------------------------------->
+
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css" />
+    <!-- CUSTOMIZE ICON LIBRARY CDN LINK ---------------------------------------------------------------------------------------->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- CARD SWIPER LIBRARY CDN LINK ---------------------------------------------------------------------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <!-- DEFAULT CSS FILE LINK---------------------------------------------------------------------------------------->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- PRELOADER SECTION---------------------------------------------------------------------------------------------------- -->
+    <div id="preloader"></div>
+    <!-- HEADER SECTION---------------------------------------------------------------------------------------------------- -->
+    <header class="header">
+      <a href="#" class="logo">Port<span>folio</span></a>
+      <input type="checkbox" id="check" />
+      <label for="check" class="icon">
+        <i class="ri-menu-line" id="menu-icon"></i>
+        <i class="ri-close-line" id="close-icon"></i>
+      </label>
+      <nav class="navbar">
+        <a href="#home" style="--clr: 1" class="active">Home</a>
+        <a href="#about" style="--clr: 2">About</a>
+        <a href="#skill" style="--clr: 3">Skills</a>
+        <a href="#projects" style="--clr: 4">Projects</a>
+        <a href="#contact" style="--clr: 5">Contact</a>
+        <i class="ri-palette-line switch"></i>
+      </nav>
+    </header>
+    <!-- HOME SECTION --------------------------------------------------------------------------------------------------------->
+    <section class="home" id="home">
+      <div class="homeinfo">
+        <h3>Hello It's Me</h3>
+        <h1>Deviprasanna Padhy</h1>
+        <h3>And I'm a <span class="textline"></span></h3>
+        <p>
+          "Frontend developer skilled in HTML, CSS, JS. Crafting visually
+          stunning, responsive websites. Elevate your online presence with my
+          expertise."
+        </p>
+        <div class="socialmedia">
+          <a href="https://www.linkedin.com/in/deviprasanna-padhy-aa6864208"
+            ><i class="ri-linkedin-box-fill"></i
+          ></a>
+          <a href="https://github.com/devwebdevloper89"
+            ><i class="ri-github-fill"></i
+          ></a>
+          <a href="#"><i class="ri-facebook-circle-line"></i></a>
+          <a href="#"><i class="ri-discord-line"></i></a>
+        </div>
+        <button class="btn">Download Resume</button>
+        <button id="btn">Hire Me</button>
+      </div>
+      <div class="homeimg">
+        <img src="./mainimg-removebg-preview.png" alt="Men image" />
+      </div>
+    </section>
+    <!-- ABOUT SECTION --------------------------------------------------------------------------------------------------------->
+    <section class="about" id="about">
+      <div class="aboutimg">
+        <img src="./mainimg-removebg-preview.png" alt="Men Image" />
+      </div>
+
+      <div class="aboutsection">
+        <h2 class="allheading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <input id="extend" type="checkbox" />
+        <p>
+          "As a recent graduate, my portfolio embodies my passion for frontend
+          development and web design. While I may not have extensive
+          professional experience, I bring fresh perspectives and a strong
+          foundation in HTML, CSS, and JavaScript. My projects showcase my
+          dedication to learning, creativity, and my commitment to staying
+          current with industry trends...
+        </p>
+        <div class="aboutsection2">
+          <p>
+            Through my portfolio, I aim to demonstrate my adaptability,
+            problem-solving skills, and my eagerness to contribute to innovative
+            web solutions. I invite you to explore my work and witness my
+            potential to grow and thrive in the world of web development."
+          </p>
+          <label for="extend" class="btn">Show less</label>
+        </div>
+
+        <label for="extend" class="btn">Read More</label>
+      </div>
+    </section>
+    <!-- SKILL SECTION ------------------------------------------------------------------------------------------------------------>
+    <section class="skill" id="skill">
+      <h2 class="allheading">My <span>Skills</span></h2>
+      <div class="slide-container swiper">
+        <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <i class="ri-javascript-line card-image"></i>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Javascript</h2>
+                <p class="description">
+                  My portfolio highlights my JavaScript expertise, demonstrating
+                  creative problem-solving and robust web development through
+                  interactive and dynamic projects.
+                </p>
+
+                <button class="button">Read More</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <i class="ri-html5-line card-image"></i>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">HTML-5</h2>
+                <p class="description">
+                  My portfolio demonstrates my HTML prowess, crafting web
+                  experiences with precision, structure, and creativity for a
+                  digital world that thrives.
+                </p>
+
+                <button class="button">Read More</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <i class="ri-css3-line card-image"></i>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">CSS-3</h2>
+                <p class="description">
+                  Elevating digital aesthetics through my CSS mastery, I
+                  transform ideas into captivating web experiences, blending
+                  innovation and design seamlessly.
+                </p>
+
+                <button class="button">Read More</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <i class="ri-reactjs-line"></i>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">React JS</h2>
+                <p class="description">
+                  Highlighting my commitment to continuous learning, I plan to
+                  incorporate React.js into future projects, enriching my
+                  portfolio further.
+                </p>
+
+                <button class="button">Read More</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <i class="ri-bootstrap-line card-image"></i>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Bootstrap</h2>
+                <p class="description">
+                  Demonstrating my dedication to growth, I aim to implement
+                  Bootstrap in upcoming projects, enhancing my portfolio with
+                  versatile designs.
+                </p>
+
+                <button class="button">Read More</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <i class="ri-angularjs-line"></i>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Angular JS</h2>
+                <p class="description">
+                  With an eye on expansion, I'm planning to delve into Angular,
+                  envisioning its role in my upcoming major project.
+                </p>
+
+                <button class="button">Read More</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <i class="ri-gitlab-line"></i>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Gitlab</h2>
+                <p class="description">
+                  Elevating my portfolio with GitLab mastery, I demonstrate
+                  cutting-edge DevOps practices, automation, and seamless
+                  collaboration for standout projects.
+                </p>
+
+                <button class="button">Read More</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <i class="ri-github-line"></i>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Github</h2>
+                <p class="description">
+                  Showcasing my skills on GitHub through a diverse range of
+                  projects that demonstrate my expertise and passion for coding.
+                </p>
+
+                <button class="button">Read More</button>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <i class="ri-code-s-slash-line"></i>
+                </div>
+              </div>
+
+              <div class="card-content">
+                <h2 class="name">Web Develpoment</h2>
+                <p class="description">
+                  Passionate web developer with a flair for crafting sleek,
+                  user-centric websites that seamlessly blend form and function.
+                  Explore my work!
+                </p>
+
+                <button class="button">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- PROJECT SECTION ------------------------------------------------------------------------------------------------------------>
+    <section class="projects" id="projects">
+      <h2 class="allheading">Recent <span>Projects</span></h2>
+      <div class="projectsection">
+        <div class="projectbox">
+          <img src="./To-Do.png" alt="#" />
+          <div class="projecthead">
+            <h4>To-Do list</h4>
+            <p>
+              Created a responsive to-do list app with real-time updates and
+              priority management for efficient task tracking.
+            </p>
+            <a href="https://devwebdevloper89.github.io/TaskList-WebApp/"
+              ><i class="ri-external-link-fill"></i
+            ></a>
+          </div>
+        </div>
+        <div class="projectbox">
+          <img src="./webdev.png" alt="#" />
+          <div class="projecthead">
+            <h4>Calculator</h4>
+            <p>
+              Designed a feature-rich calculator with light and dark modes for
+              user customization, enhancing functionality and aesthetics.
+            </p>
+            <a href="#"><i class="ri-external-link-fill"></i></a>
+          </div>
+        </div>
+        <div class="projectbox">
+          <img src="./webdev.png" alt="#" />
+          <div class="projecthead">
+            <h4>Wheather App using APIs</h4>
+            <p>
+              Created a weather app using APIs to provide accurate forecasts,
+              user-friendly interface, and real-time updates.
+            </p>
+            <a href="#"><i class="ri-external-link-fill"></i></a>
+          </div>
+        </div>
+        <div class="projectbox">
+          <img src="./webdev.png" alt="#" />
+          <div class="projecthead">
+            <h4>Music Webapp:Blackhole</h4>
+            <p>A music Web App clone</p>
+            <a href="#"><i class="ri-external-link-fill"></i></a>
+          </div>
+        </div>
+        <div class="projectbox">
+          <img src="./webdev.png" alt="#" />
+          <div class="projecthead">
+            <h4>Web Design</h4>
+            <p>Coming soon...</p>
+            <a href="#"><i class="ri-external-link-fill"></i></a>
+          </div>
+        </div>
+        <div class="projectbox">
+          <img src="./webdev.png" alt="#" />
+          <div class="projecthead">
+            <h4>Web Design</h4>
+            <p>Coming soon...</p>
+            <a href="#"><i class="ri-external-link-fill"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT SECTION ------------------------------------------------------------------------------------------------------------>
+    <section class="contact" id="contact">
+      <h2 class="allheading">Contact <span>Me</span></h2>
+      <form action="#">
+        <div class="inputbox">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="E-mail" />
+        </div>
+        <div class="inputbox">
+          <input type="tel" placeholder="Mobile Number" />
+          <input type="text" placeholder="Title" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Message"
+        ></textarea>
+        <input type="submit" class="btn" value="Send Message" />
+      </form>
+    </section>
+    <!-- FOOTER SECTION ------------------------------------------------------------------------------------------------------------>
+    <footer class="footer">
+      <div class="text">
+        <p>Copyright@2023 by Deviprasanna Padhy || All Right Reserved</p>
+      </div>
+      <div class="footerup">
+        <a href="#"><i class="ri-arrow-up-fill"></i></a>
+      </div>
+    </footer>
+
+    <!-- CARD SWIPER LIBRARY CDN LINK FOR JS ---------------------------------------------------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- CUSTOMIZE CURSOR LIBRARY CDN LINK ---------------------------------------------------------------------------------------->
+    <script src="https://unpkg.com/kursor"></script>
+    <!-- TYPING ANIMATION JS CDN LINK ---------------------------------------------------------------------------------------->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- DEFAULT JAVASCRIPT FILE LINK ---------------------------------------------------------------------------------------->
+    <script src="script.js"></script>
+  </body>
+</html>
